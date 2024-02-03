@@ -1,0 +1,33 @@
+
+@tailwind utilities;
+
+*{
+  @apply box-border m-0;
+}
+
+html,body,#root{
+  @apply h-full w-full;
+}
+body{
+  background-color: black;
+}
+.box2{
+  background-color: rgb(16, 17, 16);
+}
+.wid{
+  width: 980px;
+  height: 990px;
+}
+.border{
+  width: 100px;
+}
+.inp{
+  width: 380px;
+}
+.width{
+  width: 990px;
+  height: 495px;
+}
+.song-row:hover {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
